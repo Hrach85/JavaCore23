@@ -1,17 +1,17 @@
 package chapter4;
 
-public class incDec {
-    public static void main(String[] args) {
+public class OpBitEquals {
 
+    public static void main(String[] args) {
         int a = 1;
         int b = 2;
-        int c;
-        int d;
-        c = ++b;
-        d = a++;
+        int c = 3;
+        a += 5;
+        b *= 4;
+        c += a * b;
+        c %= 6;
         System.out.println("a =" + a);
         System.out.println("b =" + b);
         System.out.println("c =" + c);
-        System.out.println("d =" + d);
     }
 }
