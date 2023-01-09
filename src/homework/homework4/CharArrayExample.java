@@ -11,7 +11,7 @@ public class CharArrayExample {
         char[] chars = {'j', 'a', 'v', 'a', 'l', 'o', 'v', 'e'};
         for (int i = 0; i < chars.length; i++) {
             if (chars[i] == c) {
-                c += quantity++;
+                quantity++;
             }
         }
         System.out.println("c quantity = " + quantity);
