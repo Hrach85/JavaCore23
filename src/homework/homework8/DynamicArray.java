@@ -14,16 +14,14 @@ public class DynamicArray {
 
     private void extend() {
         int[] bigArray = new int[array.length + 10];
-        int replenish;
         for (int i = 0; i < array.length; i++) {
-            replenish = array[i];
-            bigArray[i] = replenish;
+            array[i] = bigArray[i];
         }
         array = bigArray;
     }
 
     public int getByIndex(int index) {
-        if (index > -1 && index < array.length && index < size) {
+        if (index > -1 && index < size) {
             return array[index];
         }
         return -1;
