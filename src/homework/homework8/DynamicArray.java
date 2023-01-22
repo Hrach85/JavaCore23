@@ -32,4 +32,54 @@ public class DynamicArray {
             System.out.print(array[i] + ",");
         }
     }
+
+    public void deleteByIndex(int index) {
+        if (index > -1 && index < size) {
+            for (int i = index; i < size; i++) {
+                array[i] = array[i + 1];
+            }
+            size--;
+        } else
+            System.out.println("there is no such element (չկա նման էլեմենտ),");
+    }
+
+    public void set(int index, int value) {
+        if (index > -1 && index < size) {
+            array[index] = value;
+        } else
+            System.out.println("նման ինդեքսով էլեմենտ չկա,");
+    }
+
+    public void add(int index, int value) {
+        if (index > -1 && index < size) {
+            size++;
+            int lengt = size;
+            for (int i = index; i < size; i++) {
+                array[lengt] = array[lengt - 1];
+                lengt--;
+            }
+            array[index] = value;
+        } else
+            System.out.println("նման ինդեքսով էլեմենտ չկա,");
+    }
+
+    public boolean exists(int value) {
+        boolean result = false;
+        for (int i = 0; i < size; i++) {
+            if (array[i] == value) {
+                result = true;
+                break;
+            }
+        }
+        return result;
+    }
+
+    public int getIndexByValue(int value) {
+        for (int i = 0; i < size; i++) {
+            if (array[i] == value) {
+                return i;
+            }
+        }
+        return -1;
+    }
 }
