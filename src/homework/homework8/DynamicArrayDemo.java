@@ -7,22 +7,16 @@ public class DynamicArrayDemo {
         for (int i = 0; i < 25; i++) {
             dy.add(i + 5);
         }
-        dy.add(8);
-        System.out.println(dy.getByIndex(21));
 
-        dy.deleteByIndex(5);
-        dy.deleteByIndex(-4);
-        dy.deleteByIndex(40);
         dy.print();
         System.out.println();
 
-        dy.set(45, 20);
+        dy.deleteByIndex(24);
+        dy.set(23, 10);
+        dy.add(3, 80);
+        System.out.println(dy.exists(7));
+        System.out.println(dy.getIndexByValue(10));
 
-        dy.add(3,5);
-
-        System.out.println(dy.exists(20));
-
-        System.out.println(dy.getIndexByValue(8));
         dy.print();
     }
 }

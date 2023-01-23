@@ -39,15 +39,17 @@ public class DynamicArray {
                 array[i] = array[i + 1];
             }
             size--;
-        } else
-            System.out.println("there is no such element (չկա նման էլեմենտ),");
+            return;
+        }
+        System.out.println("there is no such element (չկա նման էլեմենտ),");
     }
 
     public void set(int index, int value) {
-        if (index > -1 && index < size) {
-            array[index] = value;
-        } else
+        if (index < 0 || index > size - 1) {
             System.out.println("նման ինդեքսով էլեմենտ չկա,");
+            return;
+        }
+        array[index] = value;
     }
 
     public void add(int index, int value) {
@@ -59,8 +61,9 @@ public class DynamicArray {
                 lengt--;
             }
             array[index] = value;
-        } else
-            System.out.println("նման ինդեքսով էլեմենտ չկա,");
+            return;
+        }
+        System.out.println("նման ինդեքսով էլեմենտ չկա,");
     }
 
     public boolean exists(int value) {
