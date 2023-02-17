@@ -111,10 +111,6 @@ public class Employee {
         return registerDate;
     }
 
-    public void setRegisterDate(String registerDate) {
-        this.registerDate = registerDate;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
