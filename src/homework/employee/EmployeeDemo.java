@@ -151,7 +151,7 @@ public class EmployeeDemo {
         String name = scanner.nextLine();
         System.out.println("Please input surName");
         String surName = scanner.nextLine();
-        System.out.println("Please input emplyeeID");
+        System.out.println("Please input employeeID");
         String emplyeeID = scanner.nextLine();
         System.out.println("Please input salary");
         String salary = scanner.nextLine();
@@ -166,6 +166,6 @@ public class EmployeeDemo {
         Date dateOfBirthday = sdf.parse(birthday);
         Employee employee = new Employee(name, surName, emplyeeID, Integer.parseInt(salary), company, position, dateOfBirthday, registerDate);
         employeeStorage.add(employee);
-        System.out.println("emplyee is created ");
+        System.out.println("employee is created ");
     }
 }
