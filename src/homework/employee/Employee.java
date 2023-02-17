@@ -1,7 +1,5 @@
 package homework.employee;
 
-import javax.xml.namespace.QName;
-import java.util.Date;
 import java.util.Objects;
 
 public class Employee {
