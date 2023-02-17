@@ -10,9 +10,6 @@ public class EmployeeDemo {
     private static Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) throws ParseException {
-        employeeStorage.add(new Employee("poxos", "poxosyan", "a011", 100, "company1", "sr, maneger", "11/11'1985", "11/11/2022"));
-        employeeStorage.add(new Employee("petros", "petrosyan", "a022", 300, "company1", "maneger", "10/10/1990", "10/10/2022"));
-        employeeStorage.add(new Employee("poxos", "petrosyan", "a033", 500, "company1", "jn, maneger", "09/09/2000", "09/09/2022"));
         boolean isRun = false;
 
         while (!isRun) {
@@ -76,8 +73,7 @@ public class EmployeeDemo {
         }
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         String birthday = scanner.nextLine();
-        Date dateFormat = sdf.parse(birthday);
-        String changeBirthday = sdf.format(dateFormat);
+        Date changeBirthday = sdf.parse(birthday);
         employee.setDateOfBirthday(changeBirthday);
         System.out.println("Change date Of birthday");
     }
@@ -164,12 +160,10 @@ public class EmployeeDemo {
         System.out.println("Please input position");
         String position = scanner.nextLine();
         SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
-        Date date = new Date();
-        String registerDate = sdf.format(date);
+        Date registerDate = new Date();
         System.out.println("Please input date Of Birthday");
         String birthday = scanner.nextLine();
-        Date formatBirthday = sdf.parse(birthday);
-        String dateOfBirthday = sdf.format(formatBirthday);
+        Date dateOfBirthday = sdf.parse(birthday);
         Employee employee = new Employee(name, surName, emplyeeID, Integer.parseInt(salary), company, position, dateOfBirthday, registerDate);
         employeeStorage.add(employee);
         System.out.println("emplyee is created ");
