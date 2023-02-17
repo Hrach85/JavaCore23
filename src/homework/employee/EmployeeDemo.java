@@ -159,9 +159,10 @@ public class EmployeeDemo {
         String company = scanner.nextLine();
         System.out.println("Please input position");
         String position = scanner.nextLine();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
         Date registerDate = new Date();
         System.out.println("Please input date Of Birthday");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+        System.out.println("please input date of birthday FORMAT << dd/mm/yyyy >>");
         String birthday = scanner.nextLine();
         Date dateOfBirthday = sdf.parse(birthday);
         Employee employee = new Employee(name, surName, emplyeeID, Integer.parseInt(salary), company, position, dateOfBirthday, registerDate);
