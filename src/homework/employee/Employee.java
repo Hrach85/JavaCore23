@@ -1,6 +1,7 @@
 package homework.employee;
 
 import javax.xml.namespace.QName;
+import java.util.Date;
 import java.util.Objects;
 
 public class Employee {
@@ -11,18 +12,21 @@ public class Employee {
     private String company;
     private String position;
     private boolean isActive = true;
-
+    private String dateOfBirthday;
+    private String registerDate;
 
     public Employee() {
     }
 
-    public Employee(String name, String surName, String emplyeeID, double salary, String company, String position) {
+    public Employee(String name, String surName, String emplyeeID, double salary, String company, String position, String dateOfBirthday, String registerDate) {
         this.name = name;
         this.surName = surName;
         this.emplyeeID = emplyeeID;
         this.salary = salary;
         this.company = company;
         this.position = position;
+        this.dateOfBirthday = dateOfBirthday;
+        this.registerDate = registerDate;
 
     }
 
@@ -36,6 +40,8 @@ public class Employee {
                 ", company='" + company + '\'' +
                 ", position='" + position + '\'' +
                 ", isActive=" + isActive +
+                ", registerDate='" + registerDate + '\'' +
+                ", dateOfBirthday='" + dateOfBirthday + '\'' +
                 '}';
     }
 
@@ -67,7 +73,7 @@ public class Employee {
         return salary;
     }
 
-    public void setSalary(int salary) {
+    public void setSalary(double salary) {
         this.salary = salary;
     }
 
@@ -95,6 +101,22 @@ public class Employee {
         isActive = active;
     }
 
+    public String getDateOfBirthday() {
+        return dateOfBirthday;
+    }
+
+    public void setDateOfBirthday(String dateOfBirthday) {
+        this.dateOfBirthday = dateOfBirthday;
+    }
+
+    public String getRegisterDate() {
+        return registerDate;
+    }
+
+    public void setRegisterDate(String registerDate) {
+        this.registerDate = registerDate;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -108,7 +130,10 @@ public class Employee {
         if (!Objects.equals(surName, employee.surName)) return false;
         if (!Objects.equals(emplyeeID, employee.emplyeeID)) return false;
         if (!Objects.equals(company, employee.company)) return false;
-        return Objects.equals(position, employee.position);
+        if (!Objects.equals(position, employee.position)) return false;
+        if (!Objects.equals(dateOfBirthday, employee.dateOfBirthday))
+            return false;
+        return Objects.equals(registerDate, employee.registerDate);
     }
 
     @Override
@@ -123,6 +148,8 @@ public class Employee {
         result = 31 * result + (company != null ? company.hashCode() : 0);
         result = 31 * result + (position != null ? position.hashCode() : 0);
         result = 31 * result + (isActive ? 1 : 0);
+        result = 31 * result + (dateOfBirthday != null ? dateOfBirthday.hashCode() : 0);
+        result = 31 * result + (registerDate != null ? registerDate.hashCode() : 0);
         return result;
     }
 }
