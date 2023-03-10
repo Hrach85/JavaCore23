@@ -16,19 +16,19 @@ public class EnumDemo {
 
         switch (ap) {
             case JONATHON:
-                System.out.println("Copт Jonathan красный.");
+                System.out.println("Copт Jonathan краснbй.");
                 break;
             case REDDEL:
-                System.out.println("Copт Red Delicious красный.");
+                System.out.println("Copт Red Delicious краснbй.");
                 break;
             case GOLDENDEL:
-                System.out.println("Сорт Golden Delicious желтый.");
+                System.out.println("Сорт Golden Delicious желтbй.");
                 break;
             case WINESAP:
-                System.out.println("Copт Winesap красный.");
+                System.out.println("Copт Winesap краснbй.");
                 break;
             case CORTlAND:
-                System.out.println("Copт Cortland красный.");
+                System.out.println("Copт Cortland краснbй.");
         }
     }
 }

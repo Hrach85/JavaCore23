@@ -3,7 +3,7 @@ package chapter3;
 public class AreaDoubleExample {
 
     public static void main(String[] args) {
-        // Вычислить площадь круга
+        // Вbчислить площадь круга
         double pi, r, a;
 
         r = 10.8;

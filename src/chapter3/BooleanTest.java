@@ -12,13 +12,13 @@ public class BooleanTest {
 
 
         if (b) {
-            System.out.println("Этoт код выполняется.");
+            System.out.println("Этoт код вbполняется.");
 
         }
 
         b = false;
         if (b) {
-            System.out.println("Этoт код не выполняется.");
+            System.out.println("Этoт код не вbполняется.");
 
         }
 

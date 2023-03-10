@@ -15,7 +15,7 @@ public class ThrowDemo {
         try {
             demoproc();
         }catch (NullPointerException e){
-            System.out.println("Пoвтopный перехват: " + e);
+            System.out.println("Пoвтopнbй перехват: " + e);
         }
     }
 }

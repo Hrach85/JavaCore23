@@ -19,7 +19,7 @@ public class ChainExcDemo {
         } catch (NullPointerException e) {
             System.out.println("Пepexвaчeнo исключение: " + e);
 
-            // вывести исключение, послужившее причиной
+            // вbвести исключение, послужившее причиной
             // для исключения верхнего уровня
             System.out.println("Пepвoпpичинa: " + e.getCause());
         }

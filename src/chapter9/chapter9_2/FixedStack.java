@@ -12,7 +12,7 @@ public class FixedStack implements IntStack {
 
     //разместить элемент в стеке
     public void push(int item) {
-        if (tos == stck.length - 1)    // использовать поле длины стека
+        if (tos == stck.length - 1)    // использовать поле длинb стека
             System.out.println("Cтeк заполнен.");
         else
             stck[++tos] = item;

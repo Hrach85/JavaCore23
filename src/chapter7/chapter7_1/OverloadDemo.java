@@ -2,7 +2,7 @@ package chapter7.chapter7_1;
 
 public class OverloadDemo {
     void test() {
-        System.out.println("Пapaмeтpы отсутствуют");
+        System.out.println("Пapaмeтpb отсутствуют");
     }
 
     void test(int a) {
@@ -14,7 +14,7 @@ public class OverloadDemo {
     }
 
     double test(double a) {
-        System.out.println("douЫe а: " + a);
+        System.out.println("Double а: " + a);
         return a * a;
     }
 }

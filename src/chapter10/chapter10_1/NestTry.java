@@ -22,5 +22,5 @@ public class NestTry {
         }
     }
 }
-// выполнение.
+// вbполнение.
 // Дeлeниe на нуль: java.lang.ArithmeticException: / by zero

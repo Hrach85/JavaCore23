@@ -13,6 +13,6 @@ public class ForEach2 {
                 break; //рервать цикл после получения 5 значени
             }
         }
-        System.out.println("Сумма пяти первых элементов равна: " + sum);
+        System.out.println("Сумма пяти первbх элементов равна: " + sum);
     }
 }

@@ -8,7 +8,7 @@ public class Meta3 {
     public static void myMeth(){
         Meta3 ob = new Meta3();
 
-        // получить аннотацию для данного метода и вывести значения ее членов
+        // получить аннотацию для данного метода и вbвести значения ее членов
         try {
             Class<?> c = ob.getClass();
             Method m = c.getMethod("myMeth");

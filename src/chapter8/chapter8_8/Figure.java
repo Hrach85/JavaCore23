@@ -1,6 +1,6 @@
 package chapter8.chapter8_8;
 
-// Применение абстрактных методов и классов
+// Применение абстрактнbх методов и классов
 abstract class Figure {
     double dim1;
     double dim2;
@@ -10,6 +10,6 @@ abstract class Figure {
         dim2 = b;
     }
 
-    // теперь метод area() объявляется абстрактным
+    // теперь метод area() объявляется абстрактнbм
     abstract double area();
 }

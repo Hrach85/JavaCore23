@@ -12,9 +12,9 @@ public class AutoBox3 {
         System.out.println("Пocлe ++iOb: " + iob);
 
         iob2 = iob + (iob / 3);
-        System.out.println("Ob2 после выражения: " + iob2);
+        System.out.println("Ob2 после вbражения: " + iob2);
 
         i = iob + (iob / 3);
-        System.out.println("i после выражения: " + i);
+        System.out.println("i после вbражения: " + i);
     }
 }

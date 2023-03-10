@@ -11,7 +11,7 @@ public class Simpleinheritance {
         superOb.showij();
         System.out.println();
 
-        /* Подкласс имеет доступ ко всем открытым членам
+        /* Подкласс имеет доступ ко всем открbтbм членам
            своего суперкласса.*/
         subOb.i = 7;
         subOb.j = 8;

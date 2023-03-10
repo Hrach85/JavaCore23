@@ -7,6 +7,6 @@ public class AutoBox4 {
         Double dob = 98.6;
 
         dob = dob + iob;
-        System.out.println("dOb после выражения: " + dob);
+        System.out.println("dOb после вbражения: " + dob);
     }
 }

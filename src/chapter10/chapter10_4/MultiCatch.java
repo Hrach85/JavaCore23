@@ -11,7 +11,7 @@ public class MultiCatch {
             // типа ArithmeticException
             // vals[1O] = 19; //сгенерировать исключение
             // типа ArrayindexOutOfBoundsException
-            // В этом операторе catch перехватываются
+            // В этом операторе catch перехватbваются
             // оба исключения
         }catch (ArithmeticException | ArrayIndexOutOfBoundsException e){
             System.out.println("Иcключeниe перехвачено: " + e);

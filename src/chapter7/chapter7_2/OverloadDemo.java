@@ -2,7 +2,7 @@ package chapter7.chapter7_2;
 
 public class OverloadDemo {
     void test() {
-        System.out.println("Пapaмeтpы отсутствуют: ");
+        System.out.println("Пapaмeтpb отсутствуют: ");
     }
 
     void test(int a, int b) {
@@ -10,6 +10,6 @@ public class OverloadDemo {
     }
 
     void test(double a) {
-        System.out.println("Bнyтpeннee преобразование при вызове " + "test(douЬle) а: " + a);
+        System.out.println("Bнyтpeннee преобразование при вbзове " + "test(Double) а: " + a);
     }
 }

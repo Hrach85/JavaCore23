@@ -20,7 +20,7 @@ public class FinallyDemo {
         }
     }
 
-    // выполнить блок try, как обычно
+    // вbполнить блок try, как обbчно
     static void procC() {
         try {
             System.out.println("B теле метода procC() ");

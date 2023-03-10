@@ -11,7 +11,7 @@ public class Menu {
             System.out.println("  3. while");
             System.out.println("  4. dowhile");
             System.out.println("  5. for\n");
-            System.out.println("Bыбepитe нужный пункт: ");
+            System.out.println("Bbбepитe нужнbй пункт: ");
             choice = (char) System.in.read();
         } while (choice < '1' || choice > '5');
 
@@ -23,7 +23,7 @@ public class Menu {
                 System.out.println("else оператор;");
             case '2':
                 System.out.println("switch: \n");
-                System.out.println("switсh(выражение) {");
+                System.out.println("switсh(вbражение) {");
                 System.out.println("case константа:");
                 System.out.println("последовательность операторов");
             case  '3':

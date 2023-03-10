@@ -4,6 +4,6 @@ abstract class A {
     abstract void callme();
 
     void callmeToo() {
-        System.out.println("Этo конкретный метод.");
+        System.out.println("Этo конкретнbй метод.");
     }
 }

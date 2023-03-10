@@ -5,10 +5,10 @@ public class EnumDemo4 {
 
         Apple ap, ap2, ap3;
 
-        System.out.println("Bce константы сортов яблок " + " и их порядковые значения:");
+        System.out.println("Bce константb сортов яблок " + " и их порядковbе значения:");
 
 
-        // получить все порядковые значения с помощью метода ordinal()
+        // получить все порядковbе значения с помощью метода ordinal()
         for (Apple a : Apple.values()) {
             System.out.println(a + " " + a.ordinal());
         }

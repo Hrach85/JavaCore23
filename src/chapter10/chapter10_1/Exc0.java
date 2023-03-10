@@ -6,7 +6,7 @@ public class Exc0 {
         int a = 42 / d;
     }
 
-    // сгенерированного при выполнении приведенного выше кода.
+    // сгенерированного при вbполнении приведенного вbше кода.
     // java.lang.ArithmeticException: / Ьу zero
     // at Exc0.main(Exc0.java:6)
 }

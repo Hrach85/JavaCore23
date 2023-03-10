@@ -8,7 +8,7 @@ public class Meta {
         try {
             Class<?> c = ob.getClass();
 
-            // Здесь указываются типы параметров
+            // Здесь указbваются типb параметров
             Method m = c.getMethod("myMeth", String.class, int.class);
             MyAnno anno = m.getAnnotation(MyAnno.class);
 

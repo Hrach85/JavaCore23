@@ -8,8 +8,8 @@ public class Return {
         System.out.println("Дo возврата.");
 
         if(t){
-            return; // возврат в вызывающий код
+            return; // возврат в вbзbвающий код
         }
-        System.out.println("Этот оператор выполняться не будет.");
+        System.out.println("Этот оператор вbполняться не будет.");
     }
 }

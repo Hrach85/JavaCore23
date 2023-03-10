@@ -24,7 +24,7 @@ public class IfSample {
 
         // Այստեղ ոչինչ չի ցույց տալու, քանի որ x հավասար չէ  y
         if (x == y) {
-            System.out.println("вы не увидите этого");
+            System.out.println("вb не увидите этого");
 
         }
     }

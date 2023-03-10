@@ -5,7 +5,7 @@ public class EnumDemo2 {
 
         Apple ap;
 
-        System.out.println("Константы перечислимого типа Apple");
+        System.out.println("Константb перечислимого типа Apple");
 
         //  применить метод values()
         Apple[] allApples = Apple.values();

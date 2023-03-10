@@ -14,7 +14,7 @@ public class IfElse {
         } else if (month == 9 || month == 10 || month == 11) {
             season = "осени";
         } else
-            season = "вымышленным месяцам";
+            season = "вbмbшленнbм месяцам";
         System.out.println("Апрель относится к " + season + ",");
     }
 }

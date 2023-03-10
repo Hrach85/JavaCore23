@@ -2,8 +2,8 @@ package chapter6.chapter6_1;
 
 public class BoxDemo6 {
     public static void main(String[] args) {
-        //объявить, выделить память и инициализировать
-        //объекты типа Вох
+        //объявить, вbделить память и инициализировать
+        //объектb типа Вох
         Box myBox1 = new Box();
         Box myBox2 = new Box();
         double vol;

@@ -9,6 +9,6 @@ public class Overload {
         ob.test(10);
         ob.test(10, 20);
         result = ob.test(123.25);
-        System.out.println("Результат вызова ob.test(123.25): " + result);
+        System.out.println("Результат вbзова ob.test(123.25): " + result);
     }
 }

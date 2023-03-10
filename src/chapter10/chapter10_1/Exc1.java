@@ -11,7 +11,7 @@ public class Exc1 {
     }
 
     // Результат трассировки стека стандартного обработчика исключений отображает
-    // весь стек вызовов следующим образом:
+    // весь стек вbзовов следующим образом:
 
     // Exception in thread "main" java.lang.ArithmeticException: / by zero
     //	at chapter10.chapter10_1.Exc1.subroutine(Exc1.java:6)

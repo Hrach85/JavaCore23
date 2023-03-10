@@ -10,7 +10,7 @@ public class Figure {
     }
 
     double area(){
-        System.out.println("Плoщaдь фигуры не определена. ");
+        System.out.println("Плoщaдь фигурb не определена. ");
         return 0;
     }
 }

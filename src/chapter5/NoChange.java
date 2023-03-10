@@ -7,7 +7,7 @@ public class NoChange {
 
         for (int x : nums) {
             System.out.print(x + " ");
-            x = x * 10;  // этот оператор не оказывает никакого влияния на массив nums
+            x = x * 10;  // этот оператор не оказbвает никакого влияния на массив nums
         }
         System.out.println();
 

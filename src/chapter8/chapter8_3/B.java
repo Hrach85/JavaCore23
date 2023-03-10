@@ -1,7 +1,7 @@
 package chapter8.chapter8_3;
 
 public class B extends A {
-    int i;    // этот член i скрывает член i из класса А
+    int i;    // этот член i скрbвает член i из класса А
 
     B(int a, int b) {
         super.i = a;  // член i из класса А

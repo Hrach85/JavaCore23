@@ -10,7 +10,7 @@ public class Outer {
 
     class Inner {
         void display() {
-            System.out.println("вывoд: outer_x = " + outer_x);
+            System.out.println("вbвoд: outer_x = " + outer_x);
         }
     }
 }

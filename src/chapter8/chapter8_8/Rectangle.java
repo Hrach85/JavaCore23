@@ -6,10 +6,10 @@ public class Rectangle extends Figure{
         super(a, b);
     }
 
-    //  переопределить метод area() для четырехугольника
+    //  переопределить метод area() для четbрехугольника
     @Override
     double area() {
-        System.out.println(" области четырехугольника.");
+        System.out.println(" области четbрехугольника.");
         return dim1 * dim2;
     }
 }

@@ -12,8 +12,8 @@ public class RefDemo {
 
         System.out.println();
 
-        // присвоить переменной ссылки на объект типа BoxWeight
-        // ссылку на объект типа Вох
+        // присвоить переменной ссbлки на объект типа BoxWeight
+        // ссbлку на объект типа Вох
 
         plainBox = weighBox;
         vol = plainBox.volume();

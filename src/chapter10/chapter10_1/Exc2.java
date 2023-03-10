@@ -6,7 +6,7 @@ public class Exc2 {
         try {
             d = 0;
             a = 42 / d;
-            System.out.println("Этo не будет выведено.");
+            System.out.println("Этo не будет вbведено.");
         } catch (ArithmeticException е) {
             //перехватить ошибку деления на нуль
             System.out.println("Дeлeниe на нуль.");

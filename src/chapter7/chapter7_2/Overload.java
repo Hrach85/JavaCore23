@@ -7,7 +7,7 @@ public class Overload {
 
         ob.test();
         ob.test(10, 20);
-        ob.test(i);  // здесь вызывается вариант тода test(douЬle)
-        ob.test(123.25);  // здесь вызывается вариант тода test(douЬle)
+        ob.test(i);  // здесь вbзbвается вариант тода test(Double)
+        ob.test(123.25);  // здесь вbзbвается вариант тода test(Double)
     }
 }
